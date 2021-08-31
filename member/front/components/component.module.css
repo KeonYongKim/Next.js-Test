@@ -1,0 +1,833 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+.a {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  position: absolute;
+  height: 100px;
+  left: 0px;
+  right: 1px;
+  top: 94px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 94px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #1b4ece;
+}
+
+.b {
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #1b4ece;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 10px;
+}
+
+.aa {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+
+  position: absolute;
+  height: 100px;
+  left: 0px;
+  right: 1px;
+  top: 50px;
+}
+
+.bb {
+  position: static;
+  height: 70px;
+  left: calc(50% - 1899px / 2);
+  top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #1b4ece;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 10px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  height: 561px;
+  left: 0px;
+  right: 1px;
+  top: 305px;
+}
+
+.idInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  position: static;
+  width: 540px;
+  height: 60px;
+  left: 689.5px;
+  right: 689.5px;
+  top: 0px;
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.idInput2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  position: static;
+  height: 60px;
+  width: 540px;
+  left: 689.5px;
+  right: 689.5px;
+  top: 86px;
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 16px 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.idInput3 {
+  /* display: flex; */
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  position: static;
+  height: 78px;
+  width: 540px;
+  left: 689.5px;
+  right: 689.5px;
+  top: 172px;
+  background: #39aafb;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 16px 0px;
+  border: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.idInput4 {
+  /* display: flex; */
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  position: static;
+  height: 78px;
+  width: 540px;
+  left: 0.5px;
+  right: 0.5px;
+  top: 276px;
+  background: #1ddb16;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 16px 0px;
+  border: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.idInput5 {
+  /* display: flex; */
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  position: static;
+  height: 78px;
+  width: 540px;
+  left: 0.5px;
+  right: 0.5px;
+  top: 380px;
+  background: #fef01b;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin: 16px 0px;
+  border: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+.line {
+  position: static;
+  width: 540px;
+  height: 0px;
+  left: 0.5px;
+  top: 484px;
+  border: 0.5px solid #828282;
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+  margin: 20px 0px;
+}
+
+.ltr {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 540px;
+  height: 50px;
+  left: 0px;
+  top: 510px;
+  flex: none;
+  order: 6;
+  flex-grow: 0;
+  margin: 10px 0px;
+}
+.signUp {
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+  position: static;
+  width: 270px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.searchPassword {
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+  position: static;
+  width: 270px;
+  height: 50px;
+  left: 297px;
+  top: 0px;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  height: 742px;
+  left: 809.5px;
+  right: 810.5px;
+  top: 200px;
+}
+
+.signUpIdBox,
+.signUpPasswordBox {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  padding: 0px;
+  position: static;
+  height: 67px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 15px 0px;
+}
+
+.signUpIdBoxInput,
+.signUpPasswordBoxInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  position: static;
+  height: 45px;
+  left: 0px;
+  right: 0px;
+  top: 25px;
+  background: #ffffff;
+  border: 0.5px solid #bdbdbd;
+  box-sizing: border-box;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 5px 0px;
+}
+
+.signUpIdTextBox,
+.signUpPasswordTextBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 300px;
+  height: 19px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 5px 0px;
+}
+
+.signUpIdText,
+.signUpPasswordText {
+  position: static;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 0px 10px; */
+}
+
+.memberSignUp {
+  /* display: flex; */
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  position: static;
+  height: 54px;
+  left: 0px;
+  right: 0px;
+  top: 688px;
+  background: #39aafb;
+  flex: none;
+  order: 8;
+  flex-grow: 0;
+  margin: 25px 0px;
+
+  width: 300px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  border: 0px;
+}
+
+.noUnderLine {
+  text-decoration: none;
+}
+
+.cardbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 0px;
+  position: absolute;
+  width: 340px;
+  height: 450px;
+  left: 70px;
+  top: 210px;
+  background: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cardIconBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  height: 73px;
+  left: 0px;
+  right: 0px;
+  top: 366px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 5px 0px;
+}
+
+.iconBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 100px;
+  height: 73px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 0px;
+}
+.iconText {
+  position: static;
+  width: 100px;
+  height: 19px;
+  left: 0px;
+  top: 54px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 6px 0px;
+}
+
+.iconimg {
+  position: static;
+  width: 48px;
+  height: 48px;
+  left: 26px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 6px 0px;
+}
+
+.lineVector {
+  position: static;
+  width: 280px;
+  height: 0px;
+  left: 10px;
+  top: 339px;
+  border: 0.3px solid #D2D2D2;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 15px 0px;
+}
+
+.cardTextBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 280px;
+  height: 144px;
+  left: 10px;
+  top: 168px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 25px 0px;
+}
+
+.cardTextDescription {
+  position: static;
+  width: 280px;
+  height: 55px;
+  left: 0px;
+  top: 87px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  /* margin: 18px 0px; */
+}
+
+.cardTextEmail {
+  position: static;
+  width: 280px;
+  height: 23px;
+  left: 0px;
+  top: 46px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 10px;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  /* margin: 18px 0px; */
+}
+.cardTextNickName {
+  position: static;
+  width: 280px;
+  height: 28px;
+  left: 0px;
+  top: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  /* margin: 18px 0px; */
+}
+
+.cardImageBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px 10px 10px; */
+  position: static;
+  width: 130px;
+  height: 130px;
+  left: 85px;
+  top: 11px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 27px 0px; */
+}
+
+.cardImage {
+  position: static;
+  height: 110px;
+  left: 10px;
+  right: 10px;
+  top: 15px;
+  background: #C4C4C4;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 0px 10px; */
+}
+
+.mailBox {
+  position: absolute;
+  width: 620px;
+  height: 800px;
+  left: 545px;
+  top: 210px;
+  background: #F4F4F4;
+  border-radius: 15px;
+}
+
+.mailListBox {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  position: absolute;
+  height: 160px;
+  left: 0px;
+  right: 0px;
+  top: 100px;
+}
+
+.mailEntityBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  /* padding: 15px; */
+  position: static;
+  width: 600px;
+  height: 139px;
+  left: calc(50% - 600px/2);
+  top: 10px;
+  background: #8898EA;
+  border-radius: 10px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 20px 0px;
+}
+
+.fileIconBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 10px;
+  position: static;
+  width: 40.4px;
+  height: 44px;
+  left: 544.6px;
+  top: 15px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  /* margin: 0px 360px; */
+}
+
+.fileIcon {
+  position: static;
+  left: 24.75%;
+  right: 24.75%;
+  top: 22.73%;
+  bottom: 22.73%;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+  position: static;
+  width: 170px;
+  height: 109px;
+  left: 15px;
+  top: 15px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  /* margin: 0px 360px; */
+}
+
+.mailTextStyle {
+  position: static;
+  height: 25px;
+  left: 5px;
+  top: 80px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color:#FFFFFF;
+  flex: none;
+  flex-grow: 0;
+  margin: 10px 0px;
+}
+
+.textDay {
+  order: 2;
+}
+
+.textTitle {
+  order: 1;
+}
+
+.textSender {
+  order: 0;
+}
+.titleBox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  position: absolute;
+  height: 59px;
+  left: 10px;
+  right: 11px;
+  top: 30px;
+}
+
+.titleMail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+/*   padding: 10px 0px 10px 10px; */
+  position: static;
+  width: 300px;
+  height: 20px;
+  left: 300px;
+  top: 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.titleMailFuncWrite {
+  position: static;
+  width: 83.17px;
+  height: 23px;
+  left: 216.33px;
+  top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+  flex: none;
+  order: 2;
+  flex-grow: 1;
+}
+
+.titleMailFuncSend {
+  position: static;
+  width: 83.17px;
+  height: 23px;
+  left: 113.17px;
+  top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.titlMailFuncGet {
+  position: static;
+  width: 83.17px;
+  height: 23px;
+  left: 10px;
+  top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.title_mail {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 299.5px;
+  height: 59px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 0px;
+}
+
+.title_title {  
+  position: static;
+  width: 300px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  padding: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px;
+}
